@@ -1,0 +1,339 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* LOGOS  */
+#right1 {
+    height: 100%;
+    width: 50px;
+    margin: 0 auto;
+}
+
+#google-logo{
+    height: 100%;
+    width: 20px;
+}
+
+.google-logo  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px  solid #e8eaed;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.google-logo:hover {
+    border: 1px solid #dadce0;
+    transform: scale(1.1);
+    background-color: #7f267f;
+    color: white;
+}
+
+#google-logo-caption {
+    font-size: 14px;
+    font-weight: 700;
+    color: #5f6368;
+}
+
+#google-logo-caption:hover {
+    color: white;
+    font-weight: 500;
+}
+
+/* MAIN CONTAINER */
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/*  CONTAINERS */
+section {
+    width: 100%;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    height: 100%;
+}
+
+/* LOGIN  SCREEN */
+
+.rightPartContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rightPart {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-header h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #202124;
+}
+
+.login-header p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5f6368;
+}
+
+/* dots */
+
+hr {
+    width: 100%;
+    border: 1px dashed #dadce0;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.dots-caption {
+    font-size: 10px;
+    font-weight: 400;
+    color: #5f6368;
+    width: 100%;
+}
+
+/* LOGIN  FORM */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #7f267f;
+}
+
+#rememberMe-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#rememberMe {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 5px;
+    padding: 0px;
+}
+
+#rememberMe-checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+#rememberMe-checkbox:checked {
+    content: '\2713'; 
+    background-color: #f00;
+}
+
+#rememberMe-caption {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5f6368;
+    width: fit-content;
+}
+
+#forgot-password {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7f267f;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.password-input-container  {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label p  {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5f6368;
+}
+
+/* LOGIN  BUTTON */
+
+#sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #fff;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    background-color: #7f267f;
+    transition: all 0.2s ease-in-out;
+}
+
+#sign-in:hover {
+    border: 1px solid #dadce0;
+    transform: scale(1.1);
+    background-color: #7f267f;
+    color: white;
+}
+
+/* LOGIN  FOOTER */
+
+.login-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#signup-button  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-size: 15px;
+    gap: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    color: #7f267f;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-footer-caption  {
+    font-size: 15px;
+    font-weight: 400;
+    color: #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* SKULL THING */
+.leftpart {
+    background-color: #ffe6c9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SKULL THING HEADER */
+
+.leftpart-header  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    margin: 0 auto;
+}
+
+#main-header  {
+    font-size: 30px;
+    font-weight: 700;
+    color: #631e4d;
+    text-align: center;
+}
+
+#secondary-header {
+    font-size: 20px;
+    font-weight: 400;
+    color: #631e4d;
+    text-align: center;
+}
+
+/* LEFT CONTAINER */
+
+.leftPartContainer  {
+    margin-top:-40px;
+    margin-left:-70px;
+    height: 90%;
+    display: flex;
+    
+}
+
+#skull-image {
+    height: 100%;
+}
