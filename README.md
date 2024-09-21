@@ -1,1 +1,1 @@
-open index.html to look my awesome design!!
+this is a clone of slack 
